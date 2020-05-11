@@ -542,6 +542,10 @@ section:nth-of-type(2) .skills-wrapper {
 section:nth-of-type(2) .skills-wrapper .me {
   height: 350px;
   border-radius: 140px;
+  -webkit-box-shadow: 0px 10px 13px -7px #000000,
+    0px 0px 29px 1px rgba(255, 255, 255, 0);
+  box-shadow: 0px 10px 13px -7px #000000,
+    0px 0px 29px 1px rgba(255, 255, 255, 0);
 }
 section:nth-of-type(2) .skills-wrapper .label {
   margin: 20px 0 15px 0;
@@ -1290,3 +1294,14 @@ footer .footnote .highlight {
 }
 
 /*# sourceMappingURL=style.css.map */
+
+/* PERSONALIZAÇÃO */
+.text-justify {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.text-center {
+  text-align: center;
+  font-weight: 500;
+}

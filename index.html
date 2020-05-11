@@ -46,6 +46,8 @@
                 <div class="slide"></div>
                 <div class="slide"></div>
                 <div class="slide"></div>
+                <div class="slide"></div>
+                <div class="slide"></div>
               </div>
               <i class="mdi mdi-chevron-left" id="prev"></i>
               <i class="mdi mdi-chevron-right" id="next"></i>
@@ -186,25 +188,23 @@
               <img src="img/me.png" class="me" />
               <!-- <div><img class="up-arrow" src="img/up-arrow.png"></div> -->
               <div class="label bold">Quem sou eu?</div>
-              <div>
-                I'm a Front-End Developer for
-                <a
-                  class="highlight"
-                  href="http://www.chownow.com"
-                  target="_blank"
-                  >ChowNow</a
-                >
-                in Los Angeles, CA.
+              <div class="text-justify">
                 <br />
-                I have serious passion for UI effects, animations and creating
-                intuitive, dynamic user experiences.
+                Sou desenvolvedor web full-stack, graduado em Sistemas de
+                Informações e com experiência na área de desenvolvimento e
+                análise de sistemas.<br />
+                Tenho intensa vivência com desenvolvimento de sistemas
+                utilizando .NET, e frameworks Javascript e banco de dados
+                relacionais.<br />
+                Sou apaixonado por construir, solucionar problemas,
+                empreendedorismo e intraempreendedorismo.
                 <br />
-                <span class="page-link highlight" dest="contact"
-                  >Let's make something special.</span
-                >
               </div>
+              <span class="page-link highlight text-center" dest="contact"
+                >Vamos fazer algo especial?</span
+              >
             </div>
-
+            <!--  -->
             <div
               class="flex flex-50-gt-sm waypoint bars-wrap"
               data-animation="slide-in-right"
@@ -254,7 +254,7 @@
 
               <div class="bar flex">
                 <div class="bar fill" style="width: 85%;">
-                  <div class="tag bold flex">IONIC</div>
+                  <div class="tag bold flex">Ionic</div>
                 </div>
                 <span>85%</span>
               </div>
@@ -267,17 +267,17 @@
               </div>
 
               <div class="bar flex">
-                <div class="bar fill" style="width: 65%;">
-                  <div class="tag bold flex">Node.js</div>
+                <div class="bar fill" style="width: 70%;" title="O Vue.js (comumente conhecido como Vue, pronunciado "view") é um framework progressivo do JavaScript de código aberto (open source) para a construção de interfaces de usuário.">
+                  <div class="tag bold flex">Vue</div>
                 </div>
-                <span>65%</span>
+                <span>70%</span>
               </div>
 
               <div class="bar flex">
-                <div class="bar fill" style="width: 65%;">
-                  <div class="tag bold flex">Ruby/Rails</div>
+                <div class="bar fill" style="width: 35%;">
+                  <div class="tag bold flex">Node.js</div>
                 </div>
-                <span>65%</span>
+                <span>35%</span>
               </div>
 
               <div class="bar flex">
@@ -286,8 +286,23 @@
                 </div>
                 <span>30%</span>
               </div>
+
+              <div class="bar flex">
+                <div class="bar fill" style="width: 80%;">
+                  <div class="tag bold flex">Git</div>
+                </div>
+                <span>80%</span>
+              </div>
+
+              <div class="bar flex">
+                <div class="bar fill" style="width: 80%;" title="TFS – Team Foundation Service, é a conhecida plataforma de gerenciamento de código fonte e colaboração da Microsoft que foi parar na nuvem.">
+                  <div class="tag bold flex">TFS</div>
+                </div>
+                <span>80%</span>
+              </div>
               <!--  -->
             </div>
+            <!--  -->
           </div>
         </div>
       </section>
@@ -295,7 +310,7 @@
       <!-- PORTFOLIO -->
       <section class="flex" id="portfolio">
         <div class="header waypoint" data-animation="slide-in-right">
-          PROJECTS
+          Projetos
         </div>
         <div
           class="header-bar waypoint"
@@ -305,52 +320,58 @@
 
         <div class="filter-wrap waypoint" data-animation="fade-in">
           <div class="flex row">
-            <div class="filter" data-filter="all">ALL</div>
-            <div class="filter" data-filter=".rails">RUBY/RAILS</div>
+            <div class="filter" data-filter="all">Todos</div>
+            <div class="filter" data-filter=".aspnet">ASPNET/MVC</div>
+            <div class="filter" data-filter=".angular">ANGULAR</div>
+            <div class="filter" data-filter=".ionic">IONIC</div>
+            <div class="filter" data-filter=".flutter">FLUTTER</div>
             <div class="filter" data-filter=".react">REACT-JS</div>
-            <div class="filter" data-filter=".js">JAVASCRIPT</div>
           </div>
           <div class="float-bar">
             <div class="flex row">
-              <div class="filter" data-filter="all">ALL</div>
-              <div class="filter" data-filter=".rails">RUBY/RAILS</div>
+              <div class="filter" data-filter="all">TODOS</div>
+              <div class="filter" data-filter=".aspnet">ASP.NET/MVC</div>
+              <div class="filter" data-filter=".angular">ANGULAR</div>
+              <div class="filter" data-filter=".ionic">IONIC</div>
+              <div class="filter" data-filter=".flutter">FLUTTER</div>
               <div class="filter" data-filter=".react">REACT-JS</div>
-              <div class="filter" data-filter=".js">JAVASCRIPT</div>
             </div>
           </div>
         </div>
 
         <div id="gallery" class="container flex row wrap waypoint">
-          <div class="mix react" data-my-order="1">
+          
+          <div class="mix aspnet" data-my-order="1">
             <div>
               <div class="card"></div>
               <div class="text">
-                <div class="bold">ChowNow Ordering</div>
-                <span class="highlight">React JS / Python</span>
+                <div class="bold">Sorveteria Ki Sabor</div>
+                <span class="highlight">Asp.Net / Javascript / SQL</span>
               </div>
-              <div class="button" id="ordering">LEARN MORE</div>
+              <div class="button" id="sorveteria">SABER MAIS</div>
             </div>
           </div>
+
+          <div class="mix aspnet" data-my-order="1">
+            <div>
+              <div class="card"></div>
+              <div class="text">
+                <div class="bold">Centro Automotivo</div>
+                <span class="highlight">Asp.Net / Javascript / SQL</span>
+              </div>
+              <div class="button" id="ordering">SABER MAIS</div>
+            </div>
+          </div>
+
 
           <div class="mix react" data-my-order="1">
             <div>
               <div class="card"></div>
               <div class="text">
-                <div class="bold">ChowNow Discover</div>
-                <span class="highlight">React JS / Python</span>
+                <div class="bold">Agenda Web</div>
+                <span class="highlight">Angular / Netcore 3.0 / SQL</span>
               </div>
-              <div class="button" id="discover">LEARN MORE</div>
-            </div>
-          </div>
-
-          <div class="mix react" data-my-order="1">
-            <div>
-              <div class="card"></div>
-              <div class="text">
-                <div class="bold">New Relic</div>
-                <span class="highlight">React / Ruby on Rails / AEM</span>
-              </div>
-              <div class="button" id="newrelic">LEARN MORE</div>
+              <div class="button" id="newrelic">SABER MAIS</div>
             </div>
           </div>
 
@@ -365,7 +386,7 @@
             </div>
           </div>
 
-          <div class="mix rails" data-my-order="1">
+          <div class="mix aspnet" data-my-order="1">
             <div>
               <div class="card"></div>
               <div class="text">
@@ -398,7 +419,7 @@
             </div>
           </div>
 
-          <div class="mix rails" data-my-order="1">
+          <div class="mix aspnet" data-my-order="1">
             <div>
               <div class="card"></div>
               <div class="text">
@@ -417,110 +438,6 @@
                 <span class="highlight">React.js / Node</span>
               </div>
               <div class="button" id="themall">LEARN MORE</div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- BLOG -->
-      <section id="blog">
-        <div class="container flex">
-          <div class="header waypoint" data-animation="slide-in-left">BLOG</div>
-          <div
-            class="header-bar waypoint"
-            data-animation="slide-in-left"
-            data-delay=".5s"
-          ></div>
-
-          <div class="flex row wrap">
-            <div class="flex row-gt-sm">
-              <a
-                href="http://blog.eyecuelab.com/2016/04/29/breaking-your-coders-block/"
-                target="_blank"
-              >
-                <div class="blog-wrap waypoint" data-animation="fade-in">
-                  <div class="fade-wrap">
-                    <div class="thumb" id="thumb-1"></div>
-                    <div class="label bold">Breaking Your Coder's Block</div>
-                    <div class="date">APRIL 29, 2016</div>
-                    <div class="bar"></div>
-                    <div class="text">
-                      At one time or another, as a developer, we've all found
-                      ourselves hopelessly stuck on a coding issue...
-                    </div>
-                  </div>
-                </div>
-              </a>
-              <a
-                href="http://blog.eyecuelab.com/2015/03/19/this-is-your-brain-on-caffeine/"
-                target="_blank"
-              >
-                <div
-                  class="blog-wrap waypoint"
-                  data-animation="fade-in"
-                  data-delay=".2s"
-                >
-                  <div class="fade-wrap">
-                    <div class="thumb" id="thumb-2"></div>
-                    <div class="label bold">
-                      !Awake: This is Your Brain on Caffeine
-                    </div>
-                    <div class="date">MARCH 19, 2015</div>
-                    <div class="bar"></div>
-                    <div class="text">
-                      If there's one thing I can truly claim to be an expert on,
-                      it's staying awake. For five years I struggled to stay
-                      employed...
-                    </div>
-                  </div>
-                </div>
-              </a>
-            </div>
-            <div class="flex row-gt-sm">
-              <a
-                href="http://blog.eyecuelab.com/2015/03/04/getting-a-handle-on-handlebars/"
-                target="_blank"
-              >
-                <div
-                  class="blog-wrap waypoint"
-                  data-animation="fade-in"
-                  data-delay=".4s"
-                >
-                  <div class="fade-wrap">
-                    <div class="thumb" id="thumb-3"></div>
-                    <div class="label bold">Getting a Handle on Handlebars</div>
-                    <div class="date">MARCH 04, 2015</div>
-                    <div class="bar"></div>
-                    <div class="text">
-                      Here at EyeCue Lab we render most of our data-laden HTML
-                      pages in Handlebar templates...
-                    </div>
-                  </div>
-                </div>
-              </a>
-              <a
-                href="http://blog.eyecuelab.com/2015/02/23/essential_extensions/"
-                target="_blank"
-              >
-                <div
-                  class="blog-wrap waypoint"
-                  data-animation="fade-in"
-                  data-delay=".6s"
-                >
-                  <div class="fade-wrap">
-                    <div class="thumb" id="thumb-4"></div>
-                    <div class="label bold">
-                      5 Extensions for Your Chrome Toolbelt
-                    </div>
-                    <div class="date">FEBRUARY 23, 2015</div>
-                    <div class="bar"></div>
-                    <div class="text">
-                      If you're not using Google Chrome as a front-end web
-                      developer, you're missing out. Not only is Chrome the...
-                    </div>
-                  </div>
-                </div>
-              </a>
             </div>
           </div>
         </div>
@@ -613,7 +530,7 @@
         </div>
         <div class="info-box">
           <div class="footnote">
-            MATTHEW WILLIAMS <span class="highlight">&copy;2015</span>
+            Felipe Souza <span class="highlight">&copy;2020</span>
           </div>
         </div>
       </footer>
@@ -632,9 +549,15 @@
       <img src="img/blog-2.jpg" />
       <img src="img/blog-3.jpg" />
       <img src="img/blog-4.jpg" />
-      <img src="img/slides/discover-0.jpg" />
+      <!-- <img src="img/slides/discover-0.jpg" />
       <img src="img/slides/discover-1.jpg" />
-      <img src="img/slides/discover-2.jpg" />
+      <img src="img/slides/discover-2.jpg" /> -->
+      <img src="img/slides/sorveteria-0.jpg"/>
+      <img src="img/slides/sorveteria-1.jpg"/>
+      <img src="img/slides/sorveteria-2.jpg"/>
+      <img src="img/slides/sorveteria-3.jpg"/>
+      <img src="img/slides/sorveteria-4.jpg"/>
+      <!-- Fim Sorveteria -->
       <img src="img/slides/ordering-0.jpg" />
       <img src="img/slides/ordering-1.jpg" />
       <img src="img/slides/ordering-2.jpg" />
@@ -660,7 +583,7 @@
       <img src="img/slides/walker-1.jpg" />
       <img src="img/slides/walker-2.jpg" />
     </div>
+
   </body>
 </html>
 
-<script src="scripts/canvas.js"></script>
