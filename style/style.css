@@ -1305,3 +1305,13 @@ footer .footnote .highlight {
   text-align: center;
   font-weight: 500;
 }
+
+.iconeWhats {
+  width: 50px;
+  height: auto;
+  margin-left: 50%;
+}
+
+.labelContato {
+  color: #009ada;
+}

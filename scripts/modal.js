@@ -3,7 +3,7 @@ $(document).ready(function () {
   var modalText = {
     sorveteria: {
       title: "Sorveteria ki Sabor",
-      tag: "Sistema web para controle da sorveteria.",
+      tag: "Sistema web para controle controle de vendas/estoque.",
       detail:
         "Sistema desenvolvido para controlar todo o processo da sorveteria, iniciando na fabricação até a venda interna e externa, após uma venda é gerado um cupom do tipo não fiscal. O sistema fornece relatórios de todos os processos para auxiliar nas tomadas de decisões.",
       link: "",
@@ -22,18 +22,18 @@ $(document).ready(function () {
         "Roambi provides analytics, reporting, and business intelligence for companies to use on the go. A Wordpress hosted site written in PHP and Javascript with Hubspot Integration.",
       link: "http://www.newrelic.com",
     },
-    roambi: {
-      title: "Roambi.com",
-      tag: "BUSINESS ANALYTICS.",
+    medquest: {
+      title: "Agenda Comercial",
+      tag: "App desenvolvido para gerenciamento das visitas e eventos.",
       detail:
-        "Roambi provides analytics, reporting, and business intelligence for companies to use on the go. A Wordpress hosted site written in PHP and Javascript with Hubspot Integration.",
-      link: "http://www.roambi.com",
+        "O App Agenda Comercial, permite o usuário realizar agendamentos de visitas, cadastrar médicos e empresas, registro de visitas com foto do local, localização de forma automática e a assinatura digital do responsável, após o registro o app gera diversos relatórios para auxiliar na tomada de decisões.",
+      link: "",
     },
-    walker: {
-      title: "WalkerTracker",
-      tag: "PERFORMANCE METRICS.",
+    bethehero: {
+      title: "BeThe Hero",
+      tag: "Aplicativo desenvolvido para ongs.",
       detail:
-        "Walker Tracker offers goal management, fitness tracking, and team competitions to companies for internal use. A Ruby on Rails and Javascript companion site for the Walker Tracker App. Features visual metrics and gamified progression system.",
+        "Este projeto é direcionado para  ongs, que  podem se cadastrar na plataforma web e registrar os casos que necessitam de ajuda financeira. Os casos cadastrados aparecerão no aplicativo aguardando possíveis padrinhos, após a aceitação de um padrinho, o aplicativo informa a ong responsável através de um email ou por whatsapp.",
     },
     powur: {
       title: "Powur.com",
@@ -165,7 +165,13 @@ $(document).ready(function () {
         // background:
         //   "url('img/slides/" + id + "-" + index + ".jpg') center center/cover",
         background: "url('img/slides/" + id + "-" + index + ".jpg') ",
-        backgroundSize: "cover",
+        // backgroundSize: "cover",
+        backgroundRepeat: "no-repeat",
+        backgroundPosition: "center top",
+        backgroundSize: "contain",
+        paddingTop: "10px",
+        // paddingBottom: "10px",
+        // backgroundAttachment: "fixed",
       });
     });
     //
