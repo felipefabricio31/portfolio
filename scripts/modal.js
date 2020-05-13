@@ -15,12 +15,13 @@ $(document).ready(function () {
         "ChowNow is a commission-free online ordering system and food ordering app helping restaurants feed their hungry customers.",
       link: "https://direct.chownow.com/direct/195/locations/260",
     },
-    newrelic: {
-      title: "NewRelic.com",
-      tag: "APPLICATION PERFORMANCE MONITORING.",
+    agendaweb: {
+      title: "Agenda Web",
+      tag:
+        "Sistema web desenvolvido para o setor de logística de uma rede de supermeracados.",
       detail:
-        "Roambi provides analytics, reporting, and business intelligence for companies to use on the go. A Wordpress hosted site written in PHP and Javascript with Hubspot Integration.",
-      link: "http://www.newrelic.com",
+        "Este sistema web é responsável por realizar o controle dos agendamentos e encaixes das lojas de um supermercado.",
+      link: "",
     },
     medquest: {
       title: "Agenda Comercial",
@@ -30,35 +31,25 @@ $(document).ready(function () {
       link: "",
     },
     bethehero: {
-      title: "BeThe Hero",
+      title: "Be The Hero",
       tag: "Aplicativo desenvolvido para ongs.",
       detail:
         "Este projeto é direcionado para  ongs, que  podem se cadastrar na plataforma web e registrar os casos que necessitam de ajuda financeira. Os casos cadastrados aparecerão no aplicativo aguardando possíveis padrinhos, após a aceitação de um padrinho, o aplicativo informa a ong responsável através de um email ou por whatsapp.",
+      link: "",
     },
-    powur: {
-      title: "Powur.com",
-      tag: "CONSUMER POWERED MARKETING.",
+    funeraria: {
+      title: "Funerária",
+      tag: "Template desenvolvido para o gerenciamento de funerária.",
       detail:
-        "Powur is a marketing platform for lead generation, recruitment, and team building. Built with Ruby on Rails and Angular-UI. Makes use of Angular-material for front-end visuals. Features complex user tree heiarchy and commission system.",
-      link: "http://www.powur.com/with/42",
+        "Este sistema é responsável por gerenciar todo processo de uma funerária, desde o cadastro de dependentes, controle do plano até a realização do pagamento.",
+      link: "https://felipefabricio31.github.io/funeraria-frontend/home.html",
     },
-    mystand: {
-      title: "MyStand",
-      tag: "CROWD-FUNDED CHARITY.",
+    flexblog: {
+      title: "FlexBlog",
+      tag: "Site desenvolvido para apresentação dos recursos de FlexBlog.",
       detail:
-        "MyStand is a crowd-funding, media sharing website, that has you donating actions instead of money out of your pocket. Single page App built with Node.js on Sails and Angular 2.0. Features social media sharing and large scale crowd-funding.",
-    },
-    never: {
-      title: "NeverSurrender",
-      tag: "ALS AWARENESS.",
-      detail:
-        "NeverSurrender is a platform for the new ALS foundation mobile app in hopes to raise awareness and research funding to fight ALS. Pure JavaScript marketing site to promote the new ALS NeverSurrender app.",
-    },
-    themall: {
-      title: "The Mall",
-      tag: "PEER GUIDED SHOPPING.",
-      detail:
-        "The Mall is a place to follow the latest fashion purchases of your friends and favorite celebrities. Built with Node.js and Handlebars. Features the ability to import thousands of top brands products into one shopping site.",
+        "Este site foi construido utilizando todos os conceitos de flexbox (estudos).",
+      link: "https://felipefabricio31.github.io/flexblog/",
     },
   };
 
@@ -76,8 +67,8 @@ $(document).ready(function () {
   });
 
   var carousel = $("#carousel"),
-    //slideWidth = 700,
-    slideWidth = 1010,
+    slideWidth = 700,
+    // slideWidth = 1010,
     threshold = slideWidth / 5,
     dragStart,
     dragEnd;

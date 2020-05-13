@@ -73,7 +73,7 @@
           <div class="text">
             Olá, eu sou <span class="highlight">Felipe Souza</span>.
             <br />
-            Sou um full-stack web developer.
+            Sou um desenvolvedor web full-stack.
           </div>
 
           <div class="button page-link" dest="about">
@@ -267,10 +267,24 @@
               </div>
 
               <div class="bar flex">
-                <div class="bar fill" style="width: 70%;" title="O Vue.js (comumente conhecido como Vue, pronunciado "view") é um framework progressivo do JavaScript de código aberto (open source) para a construção de interfaces de usuário.">
+                <div class="bar fill" style="width: 70%;" title="O Vue.js (comumente conhecido como Vue, pronunciado 'view') é um framework progressivo do JavaScript de código aberto (open source) para a construção de interfaces de usuário.">
                   <div class="tag bold flex">Vue</div>
                 </div>
                 <span>70%</span>
+              </div>
+
+              <div class="bar flex">
+                <div class="bar fill" style="width: 75%;">
+                  <div class="tag bold flex">Git</div>
+                </div>
+                <span>75%</span>
+              </div>
+              
+              <div class="bar flex">
+                <div class="bar fill" style="width: 73%;" title="TFS – Team Foundation Service, é a conhecida plataforma de gerenciamento de código fonte e colaboração da Microsoft que foi parar na nuvem.">
+                  <div class="tag bold flex">TFS</div>
+                </div>
+                <span>73%</span>
               </div>
 
               <div class="bar flex">
@@ -287,19 +301,6 @@
                 <span>30%</span>
               </div>
 
-              <div class="bar flex">
-                <div class="bar fill" style="width: 80%;">
-                  <div class="tag bold flex">Git</div>
-                </div>
-                <span>80%</span>
-              </div>
-
-              <div class="bar flex">
-                <div class="bar fill" style="width: 80%;" title="TFS – Team Foundation Service, é a conhecida plataforma de gerenciamento de código fonte e colaboração da Microsoft que foi parar na nuvem.">
-                  <div class="tag bold flex">TFS</div>
-                </div>
-                <span>80%</span>
-              </div>
               <!--  -->
             </div>
             <!--  -->
@@ -320,21 +321,17 @@
 
         <div class="filter-wrap waypoint" data-animation="fade-in">
           <div class="flex row">
-            <div class="filter" data-filter="all">Todos</div>
+            <div class="filter" data-filter="all">TODOS</div>
             <div class="filter" data-filter=".aspnet">ASPNET/MVC</div>
-            <div class="filter" data-filter=".angular">ANGULAR</div>
-            <div class="filter" data-filter=".ionic">IONIC</div>
-            <div class="filter" data-filter=".flutter">FLUTTER</div>
-            <div class="filter" data-filter=".react">REACT-JS</div>
+            <div class="filter" data-filter=".ionic-angular">IONIC/ANGULAR</div>
+            <div class="filter" data-filter=".flutter-react">FLUTTER/REACT-JS</div>
           </div>
           <div class="float-bar">
             <div class="flex row">
               <div class="filter" data-filter="all">TODOS</div>
               <div class="filter" data-filter=".aspnet">ASP.NET/MVC</div>
-              <div class="filter" data-filter=".angular">ANGULAR</div>
-              <div class="filter" data-filter=".ionic">IONIC</div>
-              <div class="filter" data-filter=".flutter">FLUTTER</div>
-              <div class="filter" data-filter=".react">REACT-JS</div>
+              <div class="filter" data-filter=".ionic-angular">IONIC/ANGULAR</div>
+              <div class="filter" data-filter=".flutter-react">FLUTTER/REACT-JS</div>
             </div>
           </div>
         </div>
@@ -364,29 +361,29 @@
           </div>
 
 
-          <div class="mix angular" data-my-order="1">
+          <div class="mix ionic-angular" data-my-order="1">
             <div>
               <div class="card"></div>
               <div class="text">
                 <div class="bold">Agenda Web</div>
                 <span class="highlight">Angular / Netcore 3.0 / SQL</span>
               </div>
-              <div class="button" id="newrelic">SAIBA MAIS</div>
+              <div class="button" id="agendaweb">SAIBA MAIS</div>
             </div>
           </div>
 
-          <div class="mix ionic" data-my-order="1">
+          <div class="mix ionic-angular" data-my-order="1">
             <div>
               <div class="card"></div>
               <div class="text">
                 <div class="bold">Agenda Comercial</div>
-                <span class="highlight">Ionic / Javascript</span>
+                <span class="highlight">Ionic / Angular</span>
               </div>
               <div class="button" id="medquest">SAIBA Mais</div>
             </div>
           </div>
 
-          <div class="mix react" data-my-order="1">
+          <div class="mix flutter-react" data-my-order="1">
             <div>
               <div class="card"></div>
               <div class="text">
@@ -394,6 +391,17 @@
                 <span class="highlight">React / React-Native / Node.js</span>
               </div>
               <div class="button" id="bethehero">SAIBA MAIS</div>
+            </div>
+          </div>
+
+          <div class="mix ionic-angular" data-my-order="1">
+            <div>
+              <div class="card"></div>
+              <div class="text">
+                <div class="bold">Funerária</div>
+                <span class="highlight">Angular / Netcore / SQL</span>
+              </div>
+              <div class="button" id="funeraria">SAIBA MAIS</div>
             </div>
           </div>
         </div>
@@ -411,10 +419,10 @@
         ></div>
 
         <div class="contato">
-          <a href="https://api.whatsapp.com/send?phone=5511946460955&text=Olá,godtech! Tudo bem?.">
+          <a href="https://api.whatsapp.com/send?phone=5511946460955&text=Olá, Felipe! Tudo bem?" target="_blank">
             <img src="/img/img-whats.jpg" class="iconeWhats"/> 
             <br>
-            <b class="labelContato">Clique para entrar em contato 👨‍💻</b>
+            <b class="labelContato">Vamos conversar? 👨‍💻</b>
           </a>
         </div>
       </section>
@@ -423,34 +431,36 @@
         <i class="mdi mdi-chevron-double-up page-link" dest="home"></i>
 
         <div class="icon-wrap flex row">
-          <a href="https://www.linkedin.com/in/mattwilliams85">
+          <a href="https://www.linkedin.com/in/felipesouza31/" target="_blank" title="Linkedin">
             <div class="flex icon" id="icon-2">
               <i class="mdi mdi-linkedin"></i>
             </div>
           </a>
-          <a href="https://www.facebook.com/matthew.williams.351">
-            <div class="flex icon" id="icon-3">
-              <i class="mdi mdi-facebook"></i>
-            </div>
-          </a>
-          <a href="https://instagram.com/infinite_edge/">
+          <a href="https://www.instagram.com/godtech_/" target="_blank" title="Instagram">
             <div class="flex icon" id="icon-4">
               <i class="mdi mdi-instagram"></i>
             </div>
           </a>
-          <a href="http://codepen.io/matthewwilliams/">
-            <div class="flex icon" id="icon-5">
-              <i class="mdi mdi-codepen"></i>
+          <a href="https://github.com/felipefabricio31" title="Github" target="_blank">
+            <div class="flex icon" id="icon-5" >
+              <i class="mdi mdi-github-box"></i>
             </div>
           </a>
         </div>
         <div class="info-box">
           <div class="footnote">
-            Felipe Souza <span class="highlight">&copy;2020</span>
+            Felipe Souza</span>
           </div>
         </div>
       </footer>
     </div>
+
+    <div id="preload">
+      <img src="img/me.png">
+      <img src="img/filler.jpg">
+    </div>
+
+    <script src="scripts/canvas.js"></script>
 
   </body>
 </html>
