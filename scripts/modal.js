@@ -8,12 +8,11 @@ $(document).ready(function () {
         "Sistema desenvolvido para controlar todo o processo da sorveteria, iniciando na fabricação até a venda interna e externa, após uma venda é gerado um cupom do tipo não fiscal. O sistema fornece relatórios de todos os processos para auxiliar nas tomadas de decisões.",
       link: "",
     },
-    ordering: {
-      title: "ChowNow Ordering Web",
-      tag: "WHITE-LABEL ONLINE ORDERING SOLUTION.",
-      detail:
-        "ChowNow is a commission-free online ordering system and food ordering app helping restaurants feed their hungry customers.",
-      link: "https://direct.chownow.com/direct/195/locations/260",
+    centroautomotivo: {
+      title: "Centro Automotivo",
+      tag: "Sistema gerar ordem de serviço.",
+      detail: "",
+      link: "",
     },
     agendaweb: {
       title: "Agenda Web",
