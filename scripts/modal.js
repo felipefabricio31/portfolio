@@ -3,23 +3,24 @@ $(document).ready(function () {
   var modalText = {
     sorveteria: {
       title: "Sorveteria ki Sabor",
-      tag: "Sistema web para controle controle de vendas/estoque.",
+      tag: "Sistema web para controle de vendas/estoque.",
       detail:
         "Sistema desenvolvido para controlar todo o processo da sorveteria, iniciando na fabricação até a venda interna e externa, após uma venda é gerado um cupom do tipo não fiscal. O sistema fornece relatórios de todos os processos para auxiliar nas tomadas de decisões.",
       link: "",
     },
-    centroautomotivo: {
+    automotivo: {
       title: "Centro Automotivo",
-      tag: "Sistema gerar ordem de serviço.",
-      detail: "",
+      tag: "Sistema web para controlar ums centro automotivo.",
+      detail:
+        "Sistema desenvolvido para controlar todo o processo de um centro automotivo, desde os cadastros até a emissão de relatórios.",
       link: "",
     },
-    agendaweb: {
+    agenda: {
       title: "Agenda Web",
       tag:
         "Sistema web desenvolvido para o setor de logística de uma rede de supermeracados.",
       detail:
-        "Este sistema web é responsável por realizar o controle dos agendamentos e encaixes das lojas de um supermercado.",
+        "Este sistema web é responsável por realizar o controle dos agendamentos e encaixes de todas lojas de uma rede de supermercado.",
       link: "",
     },
     medquest: {
